@@ -29,9 +29,9 @@ The goal is to:
 2. **Download the Dataset:**
    Place the dataset file (`Churn_Modelling.csv`) in the project folder.
 
-3. **Run the Jupyter Notebook (`.ipynb`) or Python Script:**
+3. **Run the Jupyter Notebook (`Customer_Churn_Prediction.ipynb`) or Python Script:**
    ```bash
-   jupyter notebook
+   jupyter notebook Customer_Churn_Prediction.ipynb
    ```
    Open the notebook and run the cells step by step.
 
@@ -66,10 +66,8 @@ The **Random Forest** model showed the best balance between accuracy and ROC-AUC
 
 ## Repository Structure
 ```
-|-- data
-|   |-- Churn_Modelling.csv
-|-- notebooks
-|   |-- Customer_Churn_Prediction.ipynb
+|-- Churn_Modelling.csv
+|-- Customer_Churn_Prediction.ipynb
 |-- README.md
 |-- requirements.txt
-``
+```
